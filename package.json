@@ -1,0 +1,11 @@
+{
+  "name": "dychat",
+  "version": "0.1.0",
+  "description": "Dychat",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "sxdl",
+  "license": "MIT"
+}

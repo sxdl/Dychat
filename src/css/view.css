@@ -1,0 +1,123 @@
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 1920px;
+    height: 1080px;
+    padding: 0 auto;
+    background-color: #f2f2f2;
+    font: 13px/1.5 "Microsoft-Yahei"
+}
+
+.nav {
+    display: flex;
+    width: 1920px;
+    height: 90px;
+    margin-bottom: 8px;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+
+ul.icons {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.icons>li {
+    float: left;
+    padding-left: 20px;
+    /* margin: auto 0; */
+}
+
+ul.icons img {
+    width: 70px;
+}
+
+img#icon-left-arrow {
+    transform: rotate(180deg);
+}
+
+.leftbar {
+    box-sizing: border-box;
+    width: 640px;
+    height: 980px;
+    padding: 0 8px;
+    float: left;
+    border-radius: 15px;
+    border-right: 1px solid;
+    background-color: #fcfcfc;
+}
+
+.container {
+    width: 624px;
+    height: 964px;
+    /* background-color: rgba(176, 206, 252, 0.4); */
+    overflow: hidden;
+}
+
+.container:hover {
+    overflow-y: scroll;
+}
+
+div.container>div {
+    width: 624px;
+    height: 153px;
+    margin-top: 8px;
+    border-radius: 7px;
+    border-bottom: 1px solid;
+    background-color: #f2f2f2;
+}
+
+div.container>div>div {
+    height: 50px;
+    /* background-color: rgb(247, 131, 131); */
+}
+
+div.container h2 {
+    margin: 0;
+    padding: 5px 20px 5px 12px;
+    line-height: 40px;
+    font-size: 32px;
+    background: url(../img/jinru.svg) no-repeat center right;
+    background-size: 50px 50px;
+    background-origin: content-box;
+}
+
+div.container hr {
+    margin: 3px 0 0;
+}
+
+div.container p {
+    width: 604px;
+    height: 74px;
+    padding: 8px 10px 7px 10px;
+    margin: 0;
+    font-size: 20px;
+    /* background-color: rgb(245, 133, 239); */
+}
+
+div.content {
+    width: 1264px;
+    height: 980px;
+    padding-right: 8px;
+    float: right;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+}
+
+div.content .title {
+    width: 1264px;
+    height: 160px;
+    border-radius: 15px;
+    background-color: #fcfcfc;
+}
+
+div.content h1 {
+    margin: 0;
+    padding: 50px;
+    line-height: 57px;
+    font-size: 52px;
+}

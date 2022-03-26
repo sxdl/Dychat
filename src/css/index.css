@@ -1,0 +1,94 @@
+html body {
+    /* height: 500px; */
+    margin: 0;
+}
+
+.main {
+    width: 313px;
+    height: 494px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    display: grid;
+    /* background-color: red; */
+    grid-template-rows: 80px 80px 100px 60px auto;
+}
+
+.logo {
+    justify-content: center;
+    /* background-color: coral; */
+}
+
+.title {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* align-items: center; */
+    justify-items: center;
+    /* background-color: skyblue; */
+    gap: 5px;
+}
+
+.h1 {
+    font-size: 32px;
+    font-weight: 1000;
+    align-self: bottom;
+}
+
+.h2 {
+    font-size: 13px;
+    align-self: top;
+}
+
+.middle {
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-rows: 48px 48px;
+    gap: 4px;
+}
+
+.item {
+    /* padding: 15px; */
+    background-color: rgba(248, 248, 255, 0.733);
+    display: grid;
+    grid-template-columns: auto 60px;
+    border-bottom: 1px solid black;
+}
+
+.item-left {
+    display: grid;
+    padding: 7px 15px;
+    grid-template-rows: 40% 60%;
+    gap: 2px;
+}
+
+.item-left-up {
+    font-size: 13px;
+    font-weight: 1000;
+}
+
+.item-left-down {
+    font-size: 9px;
+    align-self: center;
+}
+
+.item-right {
+    justify-self: right;
+    align-self: center;
+    padding-right: 15px;
+}
+
+.icon {
+    /* background-color: cyan; */
+    padding-left: 116px;
+    /* padding-right: 104px; */
+    display: grid;
+    grid-template-columns: 30px 30px;
+    align-items: center;
+    padding-top: 10px;
+    gap: 22px;
+}
+
+.bg {
+    /* background-color: darkorchid; */
+}
