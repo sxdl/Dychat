@@ -108,16 +108,28 @@ div.content {
     background-color: #f2f2f2;
 }
 
-div.content .title {
+div.enter {
+    /* display: none; */
+}
+
+div.view {
+    display: none;
+}
+
+div.view .title {
     width: 1264px;
     height: 160px;
     border-radius: 15px;
     background-color: #fcfcfc;
 }
 
-div.content h1 {
+div.view h1 {
     margin: 0;
     padding: 50px;
     line-height: 57px;
     font-size: 52px;
+}
+
+div.edit {
+    display: none;
 }
